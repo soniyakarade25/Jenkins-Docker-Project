@@ -1,6 +1,6 @@
-FROM  ubuntu:22.04
-MAINTAINER vikashashoke@gmail.com
-RUN apt install -y apache2 \
+FROM  centos:latest
+MAINTAINER soniyakaradesk@gmail.com
+RUN yum install -y httpd \
  zip\
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
